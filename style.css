@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.tab{
+    position: relative;
+    top: 9px;
+    left: 9px;
+    height: 145px;
+    width: 145px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 145px;
+    z-index: 1;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+.whiteBox{
+    height: 165px;
+    width: 165px;
+    margin: 10px;
+    background-color: white;
+    border: 3px black solid;
+    z-index: 0;
+}
+
+.hold{
+    border: solid red 4px;
+}
+
+.dashed{
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}
